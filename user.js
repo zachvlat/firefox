@@ -76,3 +76,7 @@ user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.formfill.enable", false);
+
+//for linux
+user_pref("middlemouse.contentLoadURL", false);
+user_pref("middlemouse.paste", false);

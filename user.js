@@ -42,7 +42,7 @@ user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 
 user_pref("media.eme.enabled", true);
-user_pref("privacy.resistFingerprinting", true);
+user_pref("privacy.resistFingerprinting", false);
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 
 user_pref("network.prefetch-next", false);

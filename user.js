@@ -65,6 +65,8 @@ user_pref("signon.rememberSignons", false);
 
 user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_send_http_background_request", false);
+user_pref("privacy.donottrackheader.enabled", false);
+user_pref("dom.private-attribution.submission.enabled", false);
 
 user_pref("fission.autostart", true);
 user_pref("browser.tabs.loadBookmarksInBackground", true);

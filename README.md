@@ -6,5 +6,3 @@ CoverYourTracks results:
 
 Material design:
 ![image](https://raw.githubusercontent.com/zachvlat/firefox/main/firefox.png)
-
-P.S. On extensions folder I have FFZ included, because it's not on the store. You may skip this if you don't want it.

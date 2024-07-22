@@ -80,6 +80,7 @@ user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.formfill.enable", false);
 user_pref("general.autoScroll", true);
+user_pref("browser.urlbar.suggest.history", false);
 
 user_pref("svg.context-properties.content.enabled", true); 
 user_pref("layout.css.color-mix.enabled", true);

@@ -22,6 +22,7 @@ user_pref("security.ask_for_password", 0);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
+user_pref("media.peerconnection.enabled", false);
 
 // ===================================
 // 🚫 Telemetry & Data Collection Disabled

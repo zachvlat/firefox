@@ -52,7 +52,7 @@ user_pref("network.predictor.enabled", false);
 user_pref("network.predictor.enable-prefetch", false);
 user_pref("browser.places.speculativeConnect.enabled", false);
 user_pref("network.http.speculative-parallel-limit", 0);
-user_pref("network.trr.mode", 0);
+user_pref("network.trr.mode", 2);
 
 // ===================================
 // 🎨 UI & Experience Customizations

@@ -42,6 +42,7 @@ user_pref("breakpad.reportURL", "");
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref("datareporting.usage.uploadEnabled", false);
 
 // ===============================
 // 🌐 Network & Connection Tweaks
@@ -79,6 +80,8 @@ user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 0);
 user_pref("widget.non-native-theme.scrollbar.style", 5);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.toolbars.bookmarks.visibility", "always");
+user_pref("sidebar.revamp", false);
+user_pref("browser.tabs.groups.smart.userEnabled", false);
 
 // ===============================
 // 🎬 Media & Content Preferences

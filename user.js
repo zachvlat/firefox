@@ -55,6 +55,24 @@ user_pref("browser.places.speculativeConnect.enabled", false);
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.trr.mode", 2);
 
+// ===============================
+// 🌐 AI Stuff
+// ===============================
+user_pref("browser.ml.enable", false); // Main AI switch
+user_pref("browser.ml.chat.enabled", false); // AI chatbot
+user_pref("browser.ml.chat.page", false);
+user_pref("browser.ml.linkPreview.enabled", false); // Key points in link previews
+user_pref("browser.tabs.groups.smart.enabled", false); // Tab group suggestions
+user_pref("browser.tabs.groups.smart.userEnabled", false);
+user_pref("extensions.ml.enabled", false);
+user_pref("sidebar.notification.badge.aichat", false);
+user_pref("browser.ml.chat.page.footerBadge", false);
+user_pref("browser.ml.chat.page.menuBadge", false);
+user_pref("browser.ml.chat.menu", false);
+user_pref("browser.aiwindow.enabled", false); // AI Sidebar
+user_pref("browser.ml.smartAssist.enabled", false);
+user_pref("browser.ml.pageAssist.enabled", false);
+
 // ===================================
 // 🎨 UI & Experience Customizations
 // ===================================

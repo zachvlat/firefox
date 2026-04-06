@@ -56,22 +56,14 @@ user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.trr.mode", 2);
 
 // ===============================
-// 🌐 AI Stuff
+// 🤖 AI Controls (Firefox 149+)
 // ===============================
-user_pref("browser.ml.enable", false); // Main AI switch
-user_pref("browser.ml.chat.enabled", false); // AI chatbot
-user_pref("browser.ml.chat.page", false);
-user_pref("browser.ml.linkPreview.enabled", false); // Key points in link previews
-user_pref("browser.tabs.groups.smart.enabled", false); // Tab group suggestions
-user_pref("browser.tabs.groups.smart.userEnabled", false);
-user_pref("extensions.ml.enabled", false);
-user_pref("sidebar.notification.badge.aichat", false);
-user_pref("browser.ml.chat.page.footerBadge", false);
-user_pref("browser.ml.chat.page.menuBadge", false);
-user_pref("browser.ml.chat.menu", false);
-user_pref("browser.aiwindow.enabled", false); // AI Sidebar
-user_pref("browser.ml.smartAssist.enabled", false);
-user_pref("browser.ml.pageAssist.enabled", false);
+user_pref("browser.ai.control.default", "blocked");
+user_pref("browser.ai.control.translations", "blocked");
+user_pref("browser.ai.control.pdfjsAltText", "blocked");
+user_pref("browser.ai.control.smartTabGroups", "blocked");
+user_pref("browser.ai.control.linkPreviewKeyPoints", "blocked");
+user_pref("browser.ai.control.sidebarChatbot", "blocked");
 
 // ===================================
 // 🎨 UI & Experience Customizations
@@ -95,7 +87,7 @@ user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("general.autoScroll", true);
 user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 0);
-user_pref("widget.non-native-theme.scrollbar.style", 5);
+user_pref("widget.non-native-theme.scrollbar.style", 3);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.toolbars.bookmarks.visibility", "always");
 user_pref("sidebar.revamp", false);
@@ -130,4 +122,3 @@ user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("extensions.pocket.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
-user_pref("feeds.topsites", false);

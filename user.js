@@ -127,7 +127,5 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", 
 // 🫸 Brave's Adblock
 // ===============================
 user_pref("privacy.trackingprotection.content.protection.enabled", true);
-user_pref("privacy.trackingprotection.content.protection.test_list_urls", "https://easylist.to/easylist/easylist.txt|https://easylist.to/easylist/easyprivacy.txt");
-user_pref("privacy.trackingprotection.content.annotation.enabled", true);
-user_pref("privacy.trackingprotection.content.annotation.test_list_urls", "https://easylist.to/easylist/easylist.txt|https://easylist.to/easylist/easyprivacy.txt");
 user_pref("privacy.trackingprotection.content.protection.test_list_urls", "https://easylist.to/easylist/easylist.txt|https://easylist.to/easylist/easyprivacy.txt|https://easylist.to/easylist/fanboy-annoyance.txt");
+user_pref("privacy.trackingprotection.content.annotation.enabled", false);

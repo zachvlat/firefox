@@ -23,6 +23,10 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
 user_pref("media.peerconnection.enabled", false);
+user_pref("extensions.formautofill.creditCards.enabled", false);
+user_pref("extensions.formautofill.available", "off");
+user_pref("extensions.formautofill.addresses.enabled", false);
+user_pref("signon.management.page.breach-alerts.enabled", false);
 
 // ===================================
 // 🚫 Telemetry & Data Collection Disabled
@@ -126,6 +130,6 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", 
 // ===============================
 // 🫸 Brave's Adblock
 // ===============================
-user_pref("privacy.trackingprotection.content.protection.enabled", true);
-user_pref("privacy.trackingprotection.content.protection.test_list_urls", "https://easylist.to/easylist/easylist.txt|https://easylist.to/easylist/easyprivacy.txt|https://easylist.to/easylist/fanboy-annoyance.txt");
-user_pref("privacy.trackingprotection.content.annotation.enabled", false);
+//user_pref("privacy.trackingprotection.content.protection.enabled", true);
+//user_pref("privacy.trackingprotection.content.protection.test_list_urls", "https://easylist.to/easylist/easylist.txt|https://easylist.to/easylist/easyprivacy.txt|https://easylist.to/easylist/fanboy-annoyance.txt");
+//user_pref("privacy.trackingprotection.content.annotation.enabled", false);
